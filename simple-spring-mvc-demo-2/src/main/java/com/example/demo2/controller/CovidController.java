@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@RestController("/covid")
+@RestController
+@RequestMapping("/covid")
 public class CovidController {
 
     private final CovidService service;

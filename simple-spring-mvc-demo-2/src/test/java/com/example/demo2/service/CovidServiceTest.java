@@ -81,7 +81,7 @@ public class CovidServiceTest {
     }
 
     @Test
-    void findTop5ByField_whenInfected_thenReturnTop5List(){
+    void findTop6ByField_whenInfected_thenReturnTop5List(){
         CovidCase c = new CovidCase();
         List<CovidCase> top5ByInfected = new ArrayList<>(Arrays.asList(c, c, c, c, c));
 
@@ -91,7 +91,7 @@ public class CovidServiceTest {
     }
 
     @Test
-    void findTop5ByField_whenRecovered_thenReturnTop5List(){
+    void findTop6ByField_whenRecovered_thenReturnTop5List(){
         CovidCase c = new CovidCase();
         List<CovidCase> top5ByRecovered = new ArrayList<>(Arrays.asList(c, c, c, c, c));
 
@@ -101,7 +101,7 @@ public class CovidServiceTest {
     }
 
     @Test
-    void findTop5ByField_whenDeaths_thenReturnTop5List(){
+    void findTop6ByField_whenDeaths_thenReturnTop5List(){
         CovidCase c = new CovidCase();
         List<CovidCase> top5ByDeaths = new ArrayList<>(Arrays.asList(c, c, c, c, c));
 
