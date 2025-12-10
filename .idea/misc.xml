@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/simple-spring-mvc-demo-2/pom.xml" />
         <option value="$PROJECT_DIR$/circular-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-hibernate-cache-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-spring-mvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/db-problems/pom.xml" />
       </list>
     </option>
   </component>
